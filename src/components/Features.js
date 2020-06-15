@@ -8,9 +8,10 @@ const FeatureGrid = ({ gridItems }) => (
       <div key={item.text} className="column is-6">
         <section className="section">
           <div className="has-text-centered">
+              <h3>{item.heading}</h3>
             <div
               style={{
-                width: '240px',
+                width: '420px',
                 display: 'inline-block',
               }}
             >

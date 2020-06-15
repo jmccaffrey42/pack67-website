@@ -1,56 +1,51 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Welcome to Santa Monica Cub Scout Pack 67 
+image: /img/scouts/biking.jpg
+heading: Santa Monica Cub Scout Pack 67
+subheading: Pack 67 is open for business and actively recruiting families for the 2020/2021 year!
+
 mainpitch:
-  title: Why Kaldi
+  title: Why join Cub Scouting?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Scouting reinforces the skills and values we want our sons and daughters to learn while they're having fun.
+    
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  The Cub Scout program helps to meet your child’s growth needs. As a child develops, they have specific developmental needs such as:
+  
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/scouts/archery_square.jpg
+      heading: Learn new physical skills
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        They can do this through games, sports, and crafts. As they develops their
+        coordination, they gain a sense of worthiness and acceptance by their peers.
+
+    - image: /img/scouts/hiking_square.jpg
+      heading: Learn to get along with kids of their same age
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        They need to form friendships with other kids. They need to learn how to balance giving and receiving affection if they are to relate well to their peers. They need to belong to a group of kids their own age. Being a part of a Cub Scout den helps fulfill these needs.
+        
     - image: /img/tutorials.png
+      heading: Develop their mental processes
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        They can develop their mental process by reading, writing, and calculating. They need opportunities to use language to express ideas and to influence others. They must move from a preoccupation with self to understanding how and what others think of them. Opportunities for observation and experimentation will help them learn self-reliance. Den activities and meetings, along with the advancement pro- gram, help them develop mentally.
+        
     - image: /img/meeting-space.png
+      heading: Develop a value system
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        They are developing a sense of what is right and wrong and what is fair and unfair. They will do this by cooperating with other kids, by being taught, by examples of adults, and from positive reinforcement. They begin to develop democratic social attitudes.
+        
+    - image: /img/meeting-space.png
+      heading: Develop personal independence
+      text: >
+        They are becoming less dependent on adults. Their same age friends become important to them. In their den, and in the pack, they exercise their independence while learning to get along with others.
+
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Your child also needs to belong to a ‘‘group’’ of kids their own age. This group is a key component of the Cub Scout program. A den is like a neighborhood group of six or eight kids in which they will achieve status and recognition.
+    As you learn more about how Cub Scouting works and what goes on in a den and a pack, you will see that the program helps your child in these five important developmental needs. The uniqueness of Cub Scouting is that you, as his family, join the program with your child. You will help them all along the way.
+
 main:
   heading: Great coffee with no compromises
   description: >
