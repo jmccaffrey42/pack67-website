@@ -159,7 +159,8 @@ const IndexPage = ({data}) => {
             <section className="container">
                 <div className="columns is-centered">
                     <div className="column is-three-quarters box">
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                            <input type="hidden" name="form-name" value="contact" />
                             <h1 className="title has-text-centered mb-6"><a id="contact-us"/>Contact Us to Learn More
                             </h1>
                             <div className="field is-horizontal">
