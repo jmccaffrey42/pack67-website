@@ -107,10 +107,10 @@ const IndexPage = ({data}) => {
 
                     <p>
                         Our plan is to conduct Pack level activities via Zoom and conduct Den level meetings in-person
-                        with small groups. We are planning to hold these in-person meetings with up-to 15 kids and 3
-                        adults following national and council safety guidelines. Please note that if you are
-                        uncomfortable meeting in-person, our dens will accommodate an entirely remote and self-driven
-                        program for those families that want it.
+                        with small groups. While we want to get kids together, individual Dens and families may remain
+                        remote due to comfort level with in-person meetings; we are committed to supporting both modes
+                        of participation this year. For those doing it, we are planning to hold these in-person meetings
+                        with up-to 15 kids and 3 adults following national and council safety guidelines.
 
                         <ul>
                             <li>Up to 15 kids in the meeting</li>
