@@ -93,37 +93,60 @@ const IndexPage = ({data}) => {
 
             <section className="container">
                 <div className="content mt-6 mb-6">
-                    <h1 className="title"><a id="schedule"/>How are we handling the COVID-19 pandemic?</h1>
+                    <h1 className="titles"><a id="schedule"/>How are we handling the COVID-19 pandemic?</h1>
+
                     <p className="mb-4">
                         Our Pack is a part of the larger West Los Angeles County Council organization of Packs and
-                        Troops which is currently requiring that all scouting activities occur without in-person contact
-                        in accordance with guidelines from the CDC and our healthcare advisors. To learn more about the
-                        COVID response from the county and national organizations, check out &nbsp;
+                        Troops. The national and council guidelines, created in accordance with guidelines from the CDC
+                        and our healthcare advisors, have advised that we limit the in-person contact to only include
+                        small groups for our program this year. To learn more about the COVID response from the county
+                        and national organizations, check out &nbsp;
 
                         <a href="https://bsa-la.org/covid-19/#1584393159779-833324e0-69af">these resources</a>.
                     </p>
+
                     <p>
-                        In response to this mandate, we are planning to host the fall season of Scouting with distanced
-                        events such as our "Campout In-Place" in October and Pack and Den level meetings taking place
-                        via Zoom. While we are all excited to return to our regular in-person meeting and campout
+                        Our plan is to conduct Pack level activities via Zoom and conduct Den level meetings in-person
+                        with small groups. We are planning to hold these in-person meetings with up-to 15 kids and 3
+                        adults following national and council safety guidelines. Please note that if you are
+                        uncomfortable meeting in-person, our dens will accommodate an entirely remote and self-driven
+                        program for those families that want it.
+
+                        <ul>
+                            <li>Up to 15 kids in the meeting</li>
+                            <li>Up to 18 people total (adults + kids) with at-least 3 adults</li>
+                            <li>One adult acting as Health Monitor</li>
+                            <li>Everyone wearing masks</li>
+                            <li>Take temperature at the start of the meeting</li>
+                            <li>Maintain social distancing of at least 6ft</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        While we are all excited to return to our regular in-person meeting and campout
                         culture, we are confident we can deliver a quality scouting program this coming year safely
-                        using remote tools.
+                        using remote tools and small in-person meetings.
                     </p>
+
                     <h1 className="title">2020-2021 Schedule Overview</h1>
+
                     <p className="mb-4">
-                        Given the uncertainty presented by COVID this year, we are not exactly sure what our schedule is going to be like. Given that, this is what we intend to do right now.
+                        Given the uncertainty presented by COVID this year, we are not exactly sure what our schedule is
+                        going to be like. Given that, this is what we intend to do right now.
                     </p>
+
                     <ul>
-                        <li>Open House in September (via Zoom until things change)</li>
-                        <li>Monthly Pack Meeting starting in September (via Zoom until things change)</li>
-                        <li>Campout In-place in October (via Zoom until things change)</li>
-                        <li>Monthly Den Meeting starting in September (via Zoom until things change)</li>
+                        <li>Open House in September 29th (via Zoom until things change)</li>
+                        <li>Monthly Pack Meeting starting in September 22nd (via Zoom until things change)</li>
+                        <li>Campout In-place in October 24th - 25th (via Zoom until things change)</li>
+                        <li>Monthly Den Meeting starting in September (Small in-person groups)</li>
                         <li>Pinewood Derby (Typically in January, TBD)</li>
                         <li>Blue and Gold Banquet (Typically in February, TBD)</li>
                         <li>Spring Campout (Typically in May, TBD)</li>
                     </ul>
 
                     <h1 className="title">Come join us for Scouting season '20-'21!</h1>
+
                     <p className="mb-4">
                         We are looking for boys and girls in grades K-5th to join our scouting program this year. Our
                         program is family oriented and is open to all who are interested. We will be hosting an open
