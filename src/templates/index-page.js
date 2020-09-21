@@ -191,7 +191,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Name</label>
                                 </div>
                                 <div className="field-body">
-                                    <input className="input" type="text" placeholder="John Doe"/>
+                                    <input name="name" className="input" type="text" placeholder="John Doe"/>
                                 </div>
                             </div>
 
@@ -200,7 +200,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Email</label>
                                 </div>
                                 <div className="field-body">
-                                    <input className="input" type="email" placeholder="e.g. jdoe@gmail.com"/>
+                                    <input name="email" className="input" type="email" placeholder="e.g. jdoe@gmail.com"/>
                                 </div>
                             </div>
 
@@ -209,7 +209,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Phone</label>
                                 </div>
                                 <div className="field-body">
-                                    <input className="input" type="tel" placeholder="(optional)"/>
+                                    <input name="phone" className="input" type="tel" placeholder="(optional)"/>
                                 </div>
                             </div>
 
@@ -221,7 +221,7 @@ const IndexPage = ({data}) => {
                                     <div className="field">
                                         <div className="control">
                                             <label className="checkbox">
-                                                <input type="checkbox" name="lion"/>
+                                                <input type="checkbox" name="age[]" value="lion" />
                                                 Lion (Kindergarten)
                                             </label>
                                         </div>
@@ -237,7 +237,7 @@ const IndexPage = ({data}) => {
                                     <div className="field">
                                         <div className="control">
                                             <label className="checkbox">
-                                                <input type="checkbox" name="tiger"/>
+                                                <input type="checkbox" name="age[]" value="tiger" />
                                                 Tiger (1st Grade)
                                             </label>
                                         </div>
@@ -253,7 +253,7 @@ const IndexPage = ({data}) => {
                                     <div className="field">
                                         <div className="control">
                                             <label className="checkbox">
-                                                <input type="checkbox" name="wolf"/>
+                                                <input type="checkbox" name="age[]" value="wolf" />
                                                 Wolf (2nd Grade)
                                             </label>
                                         </div>
@@ -269,7 +269,7 @@ const IndexPage = ({data}) => {
                                     <div className="field">
                                         <div className="control">
                                             <label className="checkbox">
-                                                <input type="checkbox" name="bear"/>
+                                                <input type="checkbox" name="age[]" value="bear" />
                                                 Bear (3rd Grade)
                                             </label>
                                         </div>
@@ -285,7 +285,7 @@ const IndexPage = ({data}) => {
                                     <div className="field">
                                         <div className="control">
                                             <label className="checkbox">
-                                                <input type="checkbox" name="webelos"/>
+                                                <input type="checkbox" name="age[]" value="webelos" />
                                                 Webelos (4th & 5th Grade)
                                             </label>
                                         </div>
@@ -300,7 +300,7 @@ const IndexPage = ({data}) => {
                                 <div className="field-body">
                                     <div className="field">
                                         <div className="control">
-                                        <textarea className="textarea"
+                                        <textarea name="comment" className="textarea"
                                                   placeholder="Explain how we can help you"></textarea>
                                         </div>
                                     </div>
