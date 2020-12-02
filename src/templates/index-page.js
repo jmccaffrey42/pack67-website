@@ -107,7 +107,7 @@ const IndexPage = ({data}) => {
 
                     <p>
                         Our plan is to conduct Pack level activities via Zoom and conduct Den level meetings in-person
-                        with small groups. While we want to get kids together, individual Dens and families may remain
+                        with small groups as permitted. While we want to get kids together, individual Dens and families may remain
                         remote due to comfort level with in-person meetings; we are committed to supporting both modes
                         of participation this year. For those doing it, we are planning to hold these in-person meetings
                         with up-to 15 kids and 3 adults following national and council safety guidelines.
@@ -136,10 +136,10 @@ const IndexPage = ({data}) => {
                     </p>
 
                     <ul>
-                        <li style={{textDecoration: "line-through"}}>Open House in September 29th (via Zoom until things change)</li>
+                        <li style={{textdecoration: "line-through"}}>Open House in September 29th (via Zoom until things change)</li>
                         <li style={{textDecoration: "line-through"}}>Monthly Pack Meeting starting in September 22nd (via Zoom until things change)</li>
-                        <li>Campout In-place in October 24th - 25th (via Zoom until things change) Learn more <a href={`${withPrefix('/')}pdf/2020 Pack 67 Camp-In.pdf`} target="_">HERE</a></li>
-                        <li>Monthly Den Meeting starting in September (Small in-person groups)</li>
+                        <li style={{textDecoration: "line-through"}}>Campout In-place in October 24th - 25th (via Zoom until things change) Learn more <a href={`${withPrefix('/')}pdf/2020 Pack 67 Camp-In.pdf`} target="_">HERE</a></li>
+                        <li>Monthly Den Meetings (Small in-person groups)</li>
                         <li>Pinewood Derby (Typically in January, TBD)</li>
                         <li>Blue and Gold Banquet (Typically in February, TBD)</li>
                         <li>Spring Campout (Typically in May, TBD)</li>
