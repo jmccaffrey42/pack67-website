@@ -182,7 +182,7 @@ const IndexPage = ({data}) => {
             <section className="container">
                 <div className="columns is-centered">
                     <div className="column is-three-quarters box">
-                        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" >
+                        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                             <input type="hidden" name="form-name" value="contact" />
                             <h1 className="title has-text-centered mb-6"><a id="contact-us"/>Contact Us to Learn More
                             </h1>
@@ -231,7 +231,7 @@ const IndexPage = ({data}) => {
 
                             <div className="field is-horizontal">
                                 <div className="field-label">
-                                    <label className="label"></label>
+                                    <label className="label"/>
                                 </div>
                                 <div className="field-body">
                                     <div className="field">
@@ -247,7 +247,7 @@ const IndexPage = ({data}) => {
 
                             <div className="field is-horizontal">
                                 <div className="field-label">
-                                    <label className="label"></label>
+                                    <label className="label"/>
                                 </div>
                                 <div className="field-body">
                                     <div className="field">
@@ -263,7 +263,7 @@ const IndexPage = ({data}) => {
 
                             <div className="field is-horizontal">
                                 <div className="field-label">
-                                    <label className="label"></label>
+                                    <label className="label"/>
                                 </div>
                                 <div className="field-body">
                                     <div className="field">
@@ -279,7 +279,7 @@ const IndexPage = ({data}) => {
 
                             <div className="field is-horizontal">
                                 <div className="field-label">
-                                    <label className="label"></label>
+                                    <label className="label"/>
                                 </div>
                                 <div className="field-body">
                                     <div className="field">
@@ -300,15 +300,10 @@ const IndexPage = ({data}) => {
                                 <div className="field-body">
                                     <div className="field">
                                         <div className="control">
-                                        <textarea name="comment" className="textarea"
-                                                  placeholder="Explain how we can help you" required="true" ></textarea>
+                                        <textarea name="comment" className="textarea" placeholder="Explain how we can help you" required="true" />
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div className="field is-horizontal mt-6">
-                                <div data-netlify-recaptcha="true"></div>
                             </div>
 
                             <div className="field is-horizontal mt-6">
