@@ -182,7 +182,7 @@ const IndexPage = ({data}) => {
             <section className="container">
                 <div className="columns is-centered">
                     <div className="column is-three-quarters box">
-                        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" >
                             <input type="hidden" name="form-name" value="contact" />
                             <h1 className="title has-text-centered mb-6"><a id="contact-us"/>Contact Us to Learn More
                             </h1>
@@ -191,7 +191,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Name</label>
                                 </div>
                                 <div className="field-body">
-                                    <input name="name" className="input" type="text" placeholder="John Doe"/>
+                                    <input name="name" className="input" type="text" placeholder="John Doe" required="true" />
                                 </div>
                             </div>
 
@@ -200,7 +200,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Email</label>
                                 </div>
                                 <div className="field-body">
-                                    <input name="email" className="input" type="email" placeholder="e.g. jdoe@gmail.com"/>
+                                    <input name="email" className="input" type="email" placeholder="e.g. jdoe@gmail.com" required="true"/>
                                 </div>
                             </div>
 
@@ -209,7 +209,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Phone</label>
                                 </div>
                                 <div className="field-body">
-                                    <input name="phone" className="input" type="tel" placeholder="(optional)"/>
+                                    <input name="phone" className="input" type="tel" placeholder="(optional)" />
                                 </div>
                             </div>
 
@@ -301,10 +301,14 @@ const IndexPage = ({data}) => {
                                     <div className="field">
                                         <div className="control">
                                         <textarea name="comment" className="textarea"
-                                                  placeholder="Explain how we can help you"></textarea>
+                                                  placeholder="Explain how we can help you" required="true" ></textarea>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div className="field is-horizontal mt-6">
+                                <div data-netlify-recaptcha="true"></div>
                             </div>
 
                             <div className="field is-horizontal mt-6">
