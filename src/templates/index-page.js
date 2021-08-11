@@ -99,26 +99,23 @@ const IndexPage = ({data}) => {
                         Our Pack is a part of the larger West Los Angeles County Council organization of Packs and
                         Troops. The national and council guidelines, created in accordance with guidelines from the CDC
                         and our healthcare advisors, have advised that we limit the in-person contact to only include
-                        small groups for our program this year. To learn more about the COVID response from the county
+                        small groups for our program at this time. To learn more about the COVID response from the county
                         and national organizations, check out &nbsp;
 
-                        <a href="https://bsa-la.org/covid-19/#1584393159779-833324e0-69af">these resources</a>.
+                        <a href="https://www.scouting.org/coronavirus/covid-19-faq/" target="_">these resources</a> and
+                        <a href="https://bsa-la.org/wp-content/uploads/2021/06/WLACC-June-15th-Meeting-Activity-Guidelines.pdf" target="_">these resources</a>.
                     </p>
 
                     <p>
                         Our plan is to conduct Pack level activities via Zoom and conduct Den level meetings in-person
                         with small groups as permitted. While we want to get kids together, individual Dens and families may remain
-                        remote due to comfort level with in-person meetings; we are committed to supporting both modes
-                        of participation this year. For those doing it, we are planning to hold these in-person meetings
-                        with up-to 15 kids and 3 adults following national and council safety guidelines.
+                        remote due to comfort level with in-person meetings.
 
+                        During meetings our policy is:
                         <ul>
-                            <li>Up to 15 kids in the meeting</li>
-                            <li>Up to 18 people total (adults + kids) with at-least 3 adults</li>
                             <li>One adult acting as Health Monitor</li>
                             <li>Everyone wearing masks</li>
                             <li>Take temperature at the start of the meeting</li>
-                            <li>Maintain social distancing of at least 6ft</li>
                         </ul>
                     </p>
 
@@ -128,7 +125,7 @@ const IndexPage = ({data}) => {
                         using remote tools and small in-person meetings.
                     </p>
 
-                    <h1 className="title">2020-2021 Schedule Overview</h1>
+                    <h1 className="title">2021-2022 Schedule Overview</h1>
 
                     <p className="mb-4">
                         Given the uncertainty presented by COVID this year, we are not exactly sure what our schedule is
@@ -136,23 +133,20 @@ const IndexPage = ({data}) => {
                     </p>
 
                     <ul>
-                        <li style={{textdecoration: "line-through"}}>Open House in September 29th (via Zoom until things change)</li>
-                        <li style={{textDecoration: "line-through"}}>Monthly Pack Meeting starting in September 22nd (via Zoom until things change)</li>
-                        <li style={{textDecoration: "line-through"}}>Campout In-place in October 24th - 25th (via Zoom until things change) Learn more <a href={`${withPrefix('/')}pdf/2020 Pack 67 Camp-In.pdf`} target="_">HERE</a></li>
+                        <li>Monthly Pack Meeting starting in September 22nd (via Zoom until things change)</li>
+                        <li>Fall Campout (October 22nd)</li>
                         <li>Monthly Den Meetings (Small in-person groups)</li>
                         <li>Pinewood Derby (Typically in January, TBD)</li>
                         <li>Blue and Gold Banquet (Typically in February, TBD)</li>
                         <li>Spring Campout (Typically in May, TBD)</li>
                     </ul>
 
-                    <h1 className="title">Come join us for Scouting season '20-'21!</h1>
+                    <h1 className="title">Come join us for Scouting season '21-'22!</h1>
 
                     <p className="mb-4">
                         We are looking for boys and girls in grades K-5th to join our scouting program this year. Our
-                        program is family oriented and is open to all who are interested. We will be hosting an open
-                        house in September to share information about our program and provide an opportunity for
-                        families to see what we do first hand. Please join us there or contact us below to learn more
-                        about our program this year!
+                        program is family oriented and is open to all who are interested. Please contact us below to
+                        learn more about our program this year!
                     </p>
 
                     <div className="columns is-centered mt-6 mb-6">
@@ -169,12 +163,6 @@ const IndexPage = ({data}) => {
                     backgroundSize: '100% auto'
                 }}>
                     <div className="container">
-                        <h1 className="title">
-                            Test
-                        </h1>
-                        <h2 className="subtitle">
-                            Test
-                        </h2>
                     </div>
                 </div>
             </section>
@@ -209,7 +197,7 @@ const IndexPage = ({data}) => {
                                     <label className="label">Phone</label>
                                 </div>
                                 <div className="field-body">
-                                    <input name="phone" className="input" type="tel" placeholder="(optional)" />
+                                    <input name="phone" className="input" type="tel" required="true"/>
                                 </div>
                             </div>
 
