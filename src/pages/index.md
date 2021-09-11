@@ -45,21 +45,3 @@ intro:
   description: >
     Your child also needs to belong to a ‘‘group’’ of kids their own age. This group is a key component of the Cub Scout program. A den is like a neighborhood group of six or eight kids in which they will achieve status and recognition.
     As you learn more about how Cub Scouting works and what goes on in a den and a pack, you will see that the program helps your child in these five important developmental needs. The uniqueness of Cub Scouting is that you, as his family, join the program with your child. You will help them all along the way.
-
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
----
