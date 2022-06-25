@@ -93,38 +93,6 @@ const IndexPage = ({data}) => {
 
             <section className="container">
                 <div className="content mt-6 mb-6">
-                    <h1 className="titles"><a id="schedule"/>How are we handling the COVID-19 pandemic?</h1>
-
-                    <p className="mb-4">
-                        Our Pack is a part of the larger West Los Angeles County Council organization of Packs and
-                        Troops. The national and council guidelines, created in accordance with guidelines from the CDC
-                        and our healthcare advisors, have advised that we limit the in-person contact to only include
-                        small groups for our program at this time. To learn more about the COVID response from the county
-                        and national organizations, check out &nbsp;
-
-                        <a href="https://www.scouting.org/coronavirus/covid-19-faq/" target="_">these resources</a> and
-                        <a href="https://bsa-la.org/wp-content/uploads/2021/06/WLACC-June-15th-Meeting-Activity-Guidelines.pdf" target="_">these resources</a>.
-                    </p>
-
-                    <p>
-                        Our plan is to conduct Pack level activities via Zoom and conduct Den level meetings in-person
-                        with small groups as permitted. While we want to get kids together, individual Dens and families may remain
-                        remote due to comfort level with in-person meetings.
-
-                        During meetings our policy is:
-                        <ul>
-                            <li>One adult acting as Health Monitor</li>
-                            <li>Everyone wearing masks</li>
-                            <li>Take temperature at the start of the meeting</li>
-                        </ul>
-                    </p>
-
-                    <p>
-                        While we are all excited to return to our regular in-person meeting and campout
-                        culture, we are confident we can deliver a quality scouting program this coming year safely
-                        using remote tools and small in-person meetings.
-                    </p>
-
                     <h1 className="title">2021-2022 Schedule Overview</h1>
 
                     <ul>
