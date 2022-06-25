@@ -127,11 +127,6 @@ const IndexPage = ({data}) => {
 
                     <h1 className="title">2021-2022 Schedule Overview</h1>
 
-                    <p className="mb-4">
-                        Given the uncertainty presented by COVID this year, we are not exactly sure what our schedule is
-                        going to be like. Given that, this is what we intend to do right now.
-                    </p>
-
                     <ul>
                         <li>Monthly Pack Meeting starting in September 22nd (via Zoom until things change)</li>
                         <li>Fall Campout (October 22nd)</li>
